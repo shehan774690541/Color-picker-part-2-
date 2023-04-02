@@ -9,4 +9,4 @@ HTML was created using CSS and JavaScript
 
 <a href="https://www.youtube.com/watch?v=o5I114KRQrY"> watch on youtube </a>
 
-<img src="colorPicker1.png" width="100%">
+<img src="colorPicker2.png" width="100%">
