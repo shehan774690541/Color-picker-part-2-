@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Creater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg">
+        <div class="metret">
+            <table>
+                <tr>
+                    <td>
+                        <div class="tbColor">
+                            <div class="colorPanel" style="--clr: #ff0000;"><span id="Pred">255 </span><br></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tbColor">
+                            <div class="colorPanel" style="--clr: #00ff00;"><span id="Pgreen">255 </span><br></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tbColor">
+                            <div class="colorPanel" style="--clr: #0000ff;"><span id="Pblue">255 </span><br></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="range" name="" value="255" max="255" id="Vred" onmousemove="colorCreater()"></td>
+                    <td><input type="range" name="" value="255" max="255" id="Vgreen" onmousemove="colorCreater()"></td>
+                    <td><input type="range" name="" value="255" max="255" id="Vblue" onmousemove="colorCreater()"></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td colspan="3" id="clrValue">
+                        RGB(255,255,255)
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
